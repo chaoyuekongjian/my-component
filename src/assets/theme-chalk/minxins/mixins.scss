@@ -1,0 +1,32 @@
+@mixin b($block) {
+  $B: $namespace + '-'+ $block;
+
+  @at-root {
+    .#{$B} {
+      @content;
+    }
+  }
+}
+
+@mixin m($modifier) {
+  $selector: &;
+  $currentSelector: '';
+
+  @each $var in $modifier {
+    $currentSelector: $currentSelector + $selector + $modifier--separator + $var + ',';
+  }
+
+  @at-root {
+    #{$currentSelector} {
+      @content;
+    }
+  }
+}
+
+@mixin when($state) {
+  @at-root {
+    &.#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
