@@ -1,12 +1,14 @@
-@import "./minxins/mixins.scss";
-@import "./minxins/config.scss";
-@import "./minxins/utils.scss";
+@import "./mixins/mixins.scss";
+@import "./mixins/config.scss";
+@import "./mixins/utils.scss";
 // 混合 mixin .el-row BEM->b block
 
 
 
 
 @include b(row) {
+  box-sizing: border-box;
+
   @include utils-clearfix;
 
   @include m((flex, black)) {
