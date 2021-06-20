@@ -1,0 +1,6 @@
+@import "./mixins/mixins.scss";
+@include b(header) {
+  box-sizing: border-box;
+  padding: $--header-padding;
+  flex-shrink: 0;
+}
