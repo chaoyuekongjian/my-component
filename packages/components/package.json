@@ -1,0 +1,17 @@
+{
+  "name": "@kot/components",
+  "version": "1.0.0",
+  "description": "",
+  "types": "types.d.ts",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}

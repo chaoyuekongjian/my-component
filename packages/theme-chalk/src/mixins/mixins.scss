@@ -1,0 +1,8 @@
+// 存储mixin
+
+// scss1.23.0版本之前使用@import  之后使用@use
+// @use指令用于将所引入的文件中的变量、函数、混入等导入到当前的scss文件中
+// @forward类似于export导出，负责讲一个模块的变量和函数以及混入导出
+
+@use "config" as *;
+@forward "config"
