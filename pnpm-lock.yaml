@@ -989,7 +989,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: registry.npmmirror.com/vite/4.5.0_sass@1.69.5
+      vite: registry.npmmirror.com/vite/4.5.0_@types+node@18.18.9
       vue: registry.npmmirror.com/vue/3.3.8_typescript@5.2.2
     dev: true
 
@@ -3359,7 +3359,7 @@ packages:
       ansi-styles: registry.npmmirror.com/ansi-styles/6.2.1
       cross-spawn: registry.npmmirror.com/cross-spawn/7.0.3
       memorystream: registry.npmmirror.com/memorystream/0.3.1
-      minimatch: registry.npmmirror.com/minimatch/9.0.3
+      minimatch: registry.npmmirror.com/minimatch/9.0.1
       pidtree: registry.npmmirror.com/pidtree/0.6.0
       read-pkg: registry.npmmirror.com/read-pkg/8.1.0
       shell-quote: registry.npmmirror.com/shell-quote/1.8.1
