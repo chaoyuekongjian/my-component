@@ -15,6 +15,5 @@ const kot: Plugin = {
   install
 }
 
-console.log('test')
 export default kot
 // export { B }
